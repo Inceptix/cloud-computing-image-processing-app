@@ -1,0 +1,8 @@
+start ec2 instance
+ssh into instance
+open WinSCP and ssh into the instance again
+copy over the keys from the AWS Account Details into the .aws hidden folder
+the actual project folder is the image_processor
+turn on the venv >source venv/bin/activate
+>python python manage.py runserver ec2-3-86-162-241.compute-1.amazonaws.com:8000
+connect to ec2-3-86-162-241.compute-1.amazonaws.com:8000
